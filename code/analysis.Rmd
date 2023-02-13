@@ -21,14 +21,25 @@ knitr::opts_knit$set(root.dir = here::here())
 1. **Find a data table** with:
   - One **numeric continuous variable** which is either not-bounded (it can take on any negative and positive number) or it is bounded to positive numbers (note that count data is not continuous).
   - One **categorical (discrete) variable** with two or more levels.
-2. **Read and transform the data** as necessary.
-3. **Fit a model** with `brm()`.
-4. Print the model summary and **describe the main results** (focus on the population-level effects).
+
+2. Write a very **brief description of the data** and/or study you got the data from to give some context to the analysis you are conducting for this assessment.
+
+  - If possible, state specific research questions or research hypotheses or expectations.
+
+3. **Read and transform the data** as necessary.
+
+4. **Fit a model** with `brm()`.
+
+5. Print the model summary and **describe the main results** (focus on the population-level effects).
   - Report the parameter values of the distributions of the coefficients of the population-level effects.
   - Report the 95% CrIs of the distributions of the coefficients of the population-level effects.
-5. **Create plots**.
+
+6. **Create plots**.
   - Plot the posterior probability distributions of the population-level effects.
   - Plot the conditional probability distributions.
+
+7. Write a brief statement about your interpretation of the results.
+  - Formulate the statement in relation to the research questions/hypotheses and/or expectations from point 2., if any.
 
 # Your code and text
 
