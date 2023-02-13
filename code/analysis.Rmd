@@ -1,0 +1,39 @@
+---
+title: "SQMB Formative Assessment 2"
+author: "EXAM NUMBER"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = here::here())
+```
+
+```{r attach-pkgs}
+# Add the necessary packages here
+
+```
+
+
+# Instructions
+
+1. **Find a data table** with:
+  - One **numeric continuous variable** which is either not-bounded (it can take on any negative and positive number) or it is bounded to positive numbers (note that count data is not continuous).
+  - One **categorical (discrete) variable** with two or more levels.
+2. **Read and transform the data** as necessary.
+3. **Fit a model** with `brm()`.
+4. Print the model summary and **describe the main results** (focus on the population-level effects).
+  - Report the parameter values of the distributions of the coefficients of the population-level effects.
+  - Report the 95% CrIs of the distributions of the coefficients of the population-level effects.
+5. **Create plots**.
+  - Plot the posterior probability distributions of the population-level effects.
+  - Plot the conditional probability distributions.
+
+# Your code and text
+
+
+
+# Render the file
+
+Before submitting your work, make sure you render this file to HTML by clicking on the "Knit" button. The submission must include the HTML file too.
