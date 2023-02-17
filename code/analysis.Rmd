@@ -2,7 +2,12 @@
 title: "SQMB Formative Assessment 2"
 author: "EXAM NUMBER"
 date: "`r Sys.Date()`"
-output: html_document
+output: 
+  pdf_document: 
+    toc: yes
+    number_sections: yes
+    latex_engine: xelatex
+    keep_tex: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -47,4 +52,4 @@ knitr::opts_knit$set(root.dir = here::here())
 
 # Render the file
 
-Before submitting your work, make sure you render this file to HTML by clicking on the "Knit" button. The submission must include the HTML file too.
+Render this file to PDF by clicking on the "Knit" button. Then submit the PDF file to Learn > Assessment > Formative Assessment 2.
